@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-kiue
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-iped-tenant/mc-quality-dashboard/backend-quality-dashboard-kiue@sha256:f40fd249e1f5ea5b93c6e15b7bcf2e1f443c317f53a8177386fd14a154c97e8f
         imagePullPolicy: Always
         name: container-image
         ports:
