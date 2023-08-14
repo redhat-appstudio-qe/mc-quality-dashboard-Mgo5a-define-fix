@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-kiue
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-iped-tenant/mc-quality-dashboard/backend-quality-dashboard-kiue@sha256:f40fd249e1f5ea5b93c6e15b7bcf2e1f443c317f53a8177386fd14a154c97e8f
+        name: container-image
+        resources: {}
+status: {}
